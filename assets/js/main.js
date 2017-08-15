@@ -193,3 +193,11 @@ $(document).ready(function() {
   });
 
 });
+
+//portafolio
+/* Demo purposes only */
+$(".hover").mouseleave(
+  function() {
+    $(this).removeClass("hover");
+  }
+);
