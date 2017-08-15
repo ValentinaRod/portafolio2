@@ -1,0 +1,75 @@
+ /*font:
+  font-family: 'Damion', cursive; (manoescrita principal)
+  font-family: 'Playfair Display', serif;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+colores:
+rojo principal: #B40404;
+rojo oscuro: #2A0A0A;
+rojo fondo: #990000;
+plomo claro: #E6E6E6;
+plomo mas claro: #F2F2F2;
+
+*/
+/*SECTION ABOUT ME STYLES*/
+.seccion_aboutme{
+	background:#E6E6E6; 
+}
+.img-circle{
+  shape-outside: circle(50%);
+  width: 200px;
+  height: 200px;
+  float: left;
+  border: 5px solid #B40404;
+  margin:30px;
+}
+
+.img-circle:hover{
+	transform: scale(1.1);
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1);
+ 	box-shadow: 5px 5px 5px #4b4b4b;
+}
+
+.section_aboutme_title{
+	font-family: 'Playfair Display', serif;
+	border-top: 2px solid #2A0A0A;
+	border-bottom:2px solid #2A0A0A; 
+	margin: 100px;
+	font-size: 60px;
+}
+
+.section_aboutme_parrafo{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-align: justify;
+	font-size: 30px;
+}
+
+
+
+.content-slide{
+	background-color: #990000;
+	color: white;
+}
+
+.conoci_iconos,
+.utilidades_iconos{
+	font-size: 100px;
+	font-family: 'Playfair Display', serif;
+	
+}
+
+.section_proyect_title{
+	font-family: 'Playfair Display', serif;
+	color: white;
+	padding: 100px;
+}
+
+.img-thumbnail{
+	background-color: transparent;
+	margin:10px;
+}
+
+.img-thumbnail:hover{
+	background:white;
+  	color:#ff9292;
+}
