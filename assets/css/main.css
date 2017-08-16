@@ -46,12 +46,13 @@ plomo mas claro: #F2F2F2;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-align: justify;
 	font-size: 22px;
+  border-bottom: 10px solid #23313f;
 }
 
 
 
 .content-slide{
-	background-color: #990000;
+	background-color: #7f0000;
 	color: white;
   }
 
@@ -66,6 +67,7 @@ plomo mas claro: #F2F2F2;
 	font-family: 'Playfair Display', serif;
 	color: white;
 	padding: 100px;
+  border-bottom: 10px solid #23313f;
   
 }
 
@@ -247,10 +249,11 @@ plomo mas claro: #F2F2F2;
 /* redes sociales */
 .section_footer{
   width:100%;
-  background:url('http://www.twitrcovers.com/wp-content/uploads/2013/12/Abstract-Backgrounds-Textures-l.jpg');
+  background:url('../img/brad-bg-main.jpg');
   padding:50px;
   font-size:2em;
   text-align:center;
+  border-top: 10px solid #23313f;
 }
 .section_footer_li{
   width:50px;
@@ -357,4 +360,17 @@ plomo mas claro: #F2F2F2;
   padding: 110px 50px 50px;
   column-count: 2;
   column-gap: 40px;
+}
+
+.section_contact_correo{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color:#4b4b4b;
+}
+
+.section_contact_title{
+  border-top: 10px solid #23313f;
+}
+
+.slide_title{
+  border-top: 10px solid #23313f;
 }
