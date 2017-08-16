@@ -41,7 +41,7 @@ plomo mas claro: #F2F2F2;
 .section_aboutme_parrafo{
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-align: justify;
-	font-size: 30px;
+	font-size: 22px;
 }
 
 
@@ -238,5 +238,63 @@ plomo mas claro: #F2F2F2;
 }
 
 
-/* Demo purposes only */
+/* redes sociales */
+.section_footer{
+  width:100%;
+  background:url('http://www.twitrcovers.com/wp-content/uploads/2013/12/Abstract-Backgrounds-Textures-l.jpg');
+  padding:50px;
+  font-size:2em;
+  text-align:center;
+}
+.section_footer_li{
+  width:50px;
+  height:50px;
+  padding:10px;
+  display:inline-block;
+  border:2px solid #fff;
+  border-radius:50%;
+  line-height:18px;
+  margin-right:10px;
+  position:relative;
+  cursor:pointer;
+}
+.fa{
+  vertical-align:middle;
+  line-height:inherit;
+}
+.section_footer_li:before{
+  content:'';
+  width:50px;
+  height:50px;
+  border:2px solid #fff;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  opacity:0;
+  transition:all 0.3s;
+}
+.section_footer_li:hover:before{
+  opacity:1;
+  transform:translate(-50%,-50%) scale(1.2,1.2);
+}
+.section_footer_li:after{
+  content:attr(data-name);
+  font-size:13px;
+  background:rgba(0,0,0,0.5);
+  color:#fff;
+  transform:translateX(-50%);
+  position:absolute;
+  left:50%;
+  bottom:-55px;
+  padding:7px;
+  border-radius:6px;
+  opacity:0;
+  transition:all 0.3s;
+}
+.section_footer_li:hover:after{
+  opacity:1;
+  bottom:-48px;
+}
 

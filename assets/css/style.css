@@ -23,11 +23,13 @@
   h1 {
     color: #B40404;
     font-weight: bold;
+    font-family: 'Playfair Display', serif;
   }
 
   p {
     font-size: 20px;
-    color: #484848;
+    color: #BDBDBD;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
   }
 
   .section {
@@ -543,7 +545,7 @@
 
   /* smaller resolution styles */
 
-  @media (min-width: 100px) and (max-width: 500px) {
+  @media (min-width: 100px) and (max-width: 800px) {
     .nav-brand {
     position: fixed;
     left: 0;
@@ -590,13 +592,28 @@
   /* mobile styles */
 
   @media (min-width: 100px) and (max-width: 400px) {
-     .opaque-bg
+   .nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+    .opaque-bg
    {
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
-    padding: 123px 1px 5px 20px;
+    padding: 0px 1px 5px 20px;
     z-index: 10;
+  }
+
+  .opaque-bg_nombre{
+    font-size: 20px;
+    font-family: 'Damion', cursive;
   }
 
   .aboutme{
@@ -605,15 +622,19 @@
     left:10px;
   }
 
-    .content {
-      max-width: 300px;
-    }
-
-    .aboutme h1 {
-      font-size: 28px;
-    }
-
+  #holder{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   
   }
+  .fa-bars {
+      display: block !important;
+    }
+
+    .header-links {
+      display: none;
+    }   
+  }
+
 
 /* loading screen animation */
 
