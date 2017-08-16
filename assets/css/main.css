@@ -11,8 +11,12 @@ plomo mas claro: #F2F2F2;
 
 */
 /*SECTION ABOUT ME STYLES*/
+#particles-js{
+  border-bottom: 10px solid #23313f;
+}
 .seccion_aboutme{
 	background:#E6E6E6; 
+
 }
 .img-circle{
   shape-outside: circle(50%);
@@ -49,7 +53,7 @@ plomo mas claro: #F2F2F2;
 .content-slide{
 	background-color: #990000;
 	color: white;
-}
+  }
 
 .conoci_iconos,
 .utilidades_iconos{
@@ -62,6 +66,7 @@ plomo mas claro: #F2F2F2;
 	font-family: 'Playfair Display', serif;
 	color: white;
 	padding: 100px;
+  
 }
 
 .img-thumbnail{
@@ -238,6 +243,7 @@ plomo mas claro: #F2F2F2;
 }
 
 
+
 /* redes sociales */
 .section_footer{
   width:100%;
@@ -297,4 +303,58 @@ plomo mas claro: #F2F2F2;
   opacity:1;
   bottom:-48px;
 }
+.logo{
+  width: 100px;
+  padding:20px;
+}
 
+.logo2{
+  width: 30px;
+  
+}
+
+
+/*menu*/
+.main-nav a {
+     font-size: .9em; 
+     text-decoration: none;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: #fff;
+    display: inline-block;
+    margin: 24px 12px;
+    font-family: 'Damion', cursive;
+}
+.main-nav a:hover {
+   border-top: 2px solid #B40404;
+   padding-top: 10px;
+   font-family: 'Damion', cursive;
+}
+.main h2 {
+   column-span: all;
+}
+
+
+.main-nav,
+.main {
+  position: relative; 
+}
+.main-nav {
+  background: #000;
+  height: 60px;
+  z-index: 150;
+  margin-bottom: -80px;
+  box-shadow: 0 2px 3px rgba(0,0,0,.4);
+}
+
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.main {
+  background: #f2f2e8;
+  padding: 110px 50px 50px;
+  column-count: 2;
+  column-gap: 40px;
+}

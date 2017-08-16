@@ -17,47 +17,22 @@
 </head>
 <body>
 <div id="particles-js" class="animated pulse">  
-<div class="nav-header">
-  <div class="nav-brand">
-    <img src="assets/img/slider/logo2.png">
-  </div>
-  <i class="fa fa-bars fa-3x"></i>
-    <div class="header-links">
-      <ul>
-        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!-- end navbar header -->
-
-<!-- sidebar slider -->
-<div class="nav-screen">
-  <i class="fa fa-times fa-3x"></i>
-  <div class="nav-container">
-    <div class="nav-links">
-      <ul id='myMenu'>
-        <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
-        <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
-        <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-<!-- end navbar slider -->
-
-
-
+<img src="assets/img/slider/logo2.png" alt="Este es el logo" class="img-responsive logo">
+</div><!--aqui me cierra las particulas-->
+<!--aqui empieza el nav-->
+<nav class="main-nav">
+  <a href="#about">ABOUT-ME</a>
+  <a href="#portafolio">PORTAFOLIO</a>
+  <a href="#contacto">CONTACTO</a>
+  
+</nav>
 
 <!-- begin fullpage -->
-
 <div id="fullpage">
 
   <!-- begin section -->
 
-  <div class="section aboutme" data-anchor="about">
+  <div class="section aboutme" data-anchor="about" id="about">
     <div class="opaque-bg">
       <h1 class="animated fadeInUp opaque-bg_nombre" style="color:white">VALENTINA<span style="color:#B40404">/</span>RODRÍGUEZ</h1>
       <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
@@ -112,7 +87,7 @@
         </div>
         <hr>
         <div class="slide">
-        <div class="content wow fadeInDown" data-wow-delay="0.2s" data-anchor="portfolio">
+        <div class="content wow fadeInDown" data-wow-delay="0.2s" data-anchor="portfolio" id="portafolio">
           <h1>PORTAFOLIO</h1>
             <figure class="snip1543 wow fadeInDown">
               <img src="assets/img/proyectos/translab/home.png" alt="img-responsive" />
@@ -209,7 +184,7 @@
   <!-- begin section -->
 
   <div class="section fp-auto-height">
-    <div class="footer content wow fadeInDown" data-wow-delay="0.2s">
+    <div class="footer content wow fadeInDown" data-wow-delay="0.2s" id="contacto">
       <p>CONECTA CONMIGO</p>
       <div class="social-links">
         
