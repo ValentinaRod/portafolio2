@@ -23,7 +23,7 @@ plomo mas claro: #F2F2F2;
   width: 200px;
   height: 200px;
   float: left;
-  border: 5px solid #B40404;
+  border: 5px solid #23313f;
   margin:30px;
 }
 
@@ -52,22 +52,29 @@ plomo mas claro: #F2F2F2;
 
 
 .content-slide{
-	background-color: #7f0000;
+	background-color: #575757;
 	color: white;
+
   }
 
 .conoci_iconos,
 .utilidades_iconos{
 	font-size: 100px;
 	font-family: 'Playfair Display', serif;
+
 	
+}
+
+.conoci_iconos,
+.utilidades_iconos:hover{
+
 }
 
 .section_proyect_title{
 	font-family: 'Playfair Display', serif;
 	color: white;
 	padding: 100px;
-  border-bottom: 10px solid #23313f;
+  
   
 }
 
@@ -374,3 +381,4 @@ plomo mas claro: #F2F2F2;
 .slide_title{
   border-top: 10px solid #23313f;
 }
+
