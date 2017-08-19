@@ -1,7 +1,17 @@
-  /*font:
-  font-family: 'Damion', cursive; (manoescrita principal)
-  font-family: 'Playfair Display', serif;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+ /*font:
+  font-family: 'Playfair Display', serif; (manoescrita principal)
+  font-family: 'Cinzel', serif; (grande)
+  font-family: 'Reenie Beanie', cursive; (movido)
+  font-family: 'Six Caps', sans-serif; (juntos)
+  font-family: 'Allerta Stencil', sans-serif; (rayi)
+  font-family: 'Cormorant Unicase', serif;
+colores:
+rojo principal: #B40404;
+rojo oscuro: #2A0A0A;
+rojo fondo: #990000;
+plomo claro: #E6E6E6;
+plomo mas claro: #F2F2F2;
+
 */
 
   /* general styles */
@@ -9,6 +19,7 @@
   body {
     font-family: 'Raleway', sans-serif !important;
     background: #fff;
+    width: 100%;
     
   }
 
@@ -24,7 +35,7 @@
   h1 {
     color: #B40404;
     font-weight: bold;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Allerta Stencil', sans-serif;
   }
 
   p {
@@ -35,7 +46,8 @@
 
   .section {
     text-align: center;
-    }
+
+}
 
   .skillbar {
     cursor: pointer;
@@ -220,19 +232,22 @@
   }
 
   .opaque-bg_nombre{
-    font-size: 50px;
-    font-family: 'Damion', cursive;
-  }
-
+    font-size: 70px;
+    font-family: 'Cormorant Unicase', serif;
+    /*font-family: 'Playfair Display', serif;*/ 
+}
   .aboutme{
     position: absolute;
-    top: 300px;
-    left:500px;
+    top: 270px;
+    left:296px;
   }
 
   #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   font-size: 30px;
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: 211px;
+   position:relative;
+   left:100px;
   }
   
   #particles-js {
@@ -408,9 +423,9 @@
   }
 
   .content-slide {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 800px;
+    margin-left: -275px;
+    margin-right: -275px;
+    max-width: 1350px;
     
   }
 
@@ -549,146 +564,7 @@
 
   /* smaller resolution styles */
 
-  @media (min-width: 100px) and (max-width: 800px) {
-    .nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-    .opaque-bg
-   {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 123px 1px 5px 20px;
-    z-index: 10;
-  }
-
-  .opaque-bg_nombre{
-    font-size: 30px;
-    font-family: 'Damion', cursive;
-  }
-
-  .aboutme{
-    position: absolute;
-    top: 300px;
-    left:10px;
-  }
-
-  #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
-  }
-  .fa-bars {
-      display: block !important;
-    }
-
-    .header-links {
-      display: none;
-    }   
-  }
-
-  /* mobile styles */
-
-  @media (min-width: 100px) and (max-width: 400px) {
-   .nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-    .opaque-bg
-   {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 20px;
-    z-index: 10;
-  }
-
-  .opaque-bg_nombre{
-    font-size: 20px;
-    font-family: 'Damion', cursive;
-  }
-
-  .aboutme{
-    position: absolute;
-    top: 300px;
-    left:60px;
-  }
-
-  #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
-  }
-  .fa-bars {
-      display: block !important;
-    }
-
-    .header-links {
-      display: none;
-    }
-.section_proyect_title{
-  margin-left: -65px;
-  }   
   
-}
-@media (min-width: 768px) and (max-width: 1025px) { 
- .nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-    .opaque-bg
-   {
-    margin-left: 300px;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 20px;
-    z-index: 10;
-  }
-
-  .opaque-bg_nombre{
-    font-size: 30px;
-    font-family: 'Damion', cursive;
-  }
-
-  .aboutme{
-    position: absolute;
-    top: 300px;
-    left:10px;
-  }
-
-  #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
-  }
-  .fa-bars {
-      display: block !important;
-    }
-
-    .header-links {
-      display: none;
-    }   
-  }
-    
-
- }
-
 /* loading screen animation */
 
   .spinner {
@@ -750,6 +626,8 @@
 
   .blinking-cursor {
     font-weight: 500;
+    position:relative;
+    left:100px;
     margin-left: 4px;
     font-size: 20px;
     color: white !important;
@@ -827,4 +705,7 @@
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
+}
+.fadeInDown{
+  margin: 100px;
 }

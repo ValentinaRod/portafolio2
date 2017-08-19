@@ -1,7 +1,9 @@
  /*font:
-  font-family: 'Damion', cursive; (manoescrita principal)
-  font-family: 'Playfair Display', serif;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Playfair Display', serif; (manoescrita principal)
+  font-family: 'Cinzel', serif; (grande)
+  font-family: 'Reenie Beanie', cursive; (movido)
+  font-family: 'Six Caps', sans-serif; (juntos)
+  font-family: 'Allerta Stencil', sans-serif; (rayi)
 colores:
 rojo principal: #B40404;
 rojo oscuro: #2A0A0A;
@@ -14,20 +16,24 @@ plomo mas claro: #F2F2F2;
 #particles-js{
   border-bottom: 10px solid #23313f;
 }
+
+
+
 .seccion_aboutme{
-	background:#E6E6E6; 
+	background:#E6E6E6;
+
 
 }
-.img-circle{
+#imgPerfil{
   shape-outside: circle(50%);
   width: 200px;
   height: 200px;
   float: left;
-  border: 5px solid #23313f;
+  border: 5px solid #2A0A0A;
   margin:30px;
 }
 
-.img-circle:hover{
+#imgPerfil:hover{
 	transform: scale(1.1);
 	-ms-transform: scale(1.1); 
 	-webkit-transform: scale(1.1);
@@ -35,52 +41,76 @@ plomo mas claro: #F2F2F2;
 }
 
 .section_aboutme_title{
-	font-family: 'Playfair Display', serif;
-	border-top: 2px solid #2A0A0A;
-	border-bottom:2px solid #2A0A0A; 
-	margin: 100px;
-	font-size: 60px;
+	font-size: 70px;
+  margin:30px;
+}
+.section_aboutme_title2{
+  font-family: 'Cinzel', serif;
 }
 
 .section_aboutme_parrafo{
-	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-family: 'Reenie Beanie', cursive;
 	text-align: justify;
-	font-size: 22px;
+	font-size: 30px;
   border-bottom: 10px solid #23313f;
+  color: #2A0A0A;
 }
 
 
 
 .content-slide{
-	background-color: #575757;
+	background-color: #990000;
 	color: white;
 
   }
 
-.conoci_iconos,
+.slide1{ /*seccion herramientas*/
+  background-color: white;
+  margin-left: -275px;
+    margin-right: -275px;
+    max-width: 1350px;
+}
+
+.conoci_iconos{
+  font-size: 100px;
+  font-family: 'Playfair Display', serif;
+  position: relative;
+  top: -100px;
+}
+
+
+
 .utilidades_iconos{
 	font-size: 100px;
 	font-family: 'Playfair Display', serif;
-
-	
 }
 
-.conoci_iconos,
+.conoci_iconos:hover{
+ 
+}
 .utilidades_iconos:hover{
 
 }
 
 .section_proyect_title{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Cinzel', serif;
 	color: white;
-	padding: 100px;
-  
+  padding: 100px;
+  margin-top: -120px;
+}
+
+.section_proyect_title1{
+  color: #990000;
+  margin-top: 50px;
   
 }
 
 .img-thumbnail{
-	background-color: transparent;
-	margin:10px;
+	
+	margin:19px;
+  background-color: #990000;
+  color:white;
+
 }
 
 .img-thumbnail:hover{
@@ -88,7 +118,16 @@ plomo mas claro: #F2F2F2;
   	color:#ff9292;
 }
 
+
+
 /*seccion portafolio*/
+.slide2{
+  margin-left: -275px;
+  margin-right: -275px;
+  max-width: 1350px;
+  margin-top: 200px;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Teko:700);
 .snip1543 {
@@ -97,15 +136,16 @@ plomo mas claro: #F2F2F2;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
-  margin: 10px 5px;
-  max-width: 315px;
-  min-width: 230px;
+  margin: 20px 5px;
+  max-width: 500px;
+  min-width: 363px;
   overflow: hidden;
   position: relative;
   text-align: left;
   width: 100%;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  padding: 10px;
 }
 
 .snip1543 *,
@@ -314,8 +354,8 @@ plomo mas claro: #F2F2F2;
   bottom:-48px;
 }
 .logo{
-  width: 100px;
-  padding:20px;
+  width: 125px;
+  
 }
 
 .logo2{

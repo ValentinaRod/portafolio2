@@ -1,0 +1,140 @@
+/*	media queries*/
+@media (min-width: 100px) and (max-width: 800px) {
+    .nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+    .opaque-bg
+   {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 123px 1px 5px 20px;
+    z-index: 10;
+  }
+
+  .opaque-bg_nombre{
+    font-size: 30px;
+    font-family: 'Damion', cursive;
+  }
+
+  .aboutme{
+    position: absolute;
+    top: 300px;
+    left:10px;
+  }
+
+  #holder{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+  }
+  .fa-bars {
+      display: block !important;
+    }
+
+    .header-links {
+      display: none;
+    }   
+  }
+
+  /* mobile styles */
+
+  @media (min-width: 100px) and (max-width: 400px) {
+   .nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+    .opaque-bg
+   {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 20px;
+    z-index: 10;
+  }
+
+  .opaque-bg_nombre{
+    font-size: 20px;
+    font-family: 'Damion', cursive;
+  }
+
+  .aboutme{
+    position: absolute;
+    top: 300px;
+    left:60px;
+  }
+
+  #holder{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+  }
+  .fa-bars {
+      display: block !important;
+    }
+
+    .header-links {
+      display: none;
+    }
+.section_proyect_title{
+  margin-left: -65px;
+  }   
+  
+}
+@media (min-width: 768px) and (max-width: 1025px) { 
+ .nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+    .opaque-bg
+   {
+    margin-left: 300px;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 20px;
+    z-index: 10;
+  }
+
+  .opaque-bg_nombre{
+    font-size: 30px;
+    font-family: 'Damion', cursive;
+  }
+
+  .aboutme{
+    position: absolute;
+    top: 300px;
+    left:10px;
+  }
+
+  #holder{
+   font-family: 'Yanone Kaffeesatz', sans-serif;
+   
+  }
+  .fa-bars {
+      display: block !important;
+    }
+
+    .header-links {
+      display: none;
+    }   
+  }
+    
+
+ }

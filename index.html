@@ -3,10 +3,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Portafolio</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <!--tipografía-->
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Reenie+Beanie" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Allerta+Stencil" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase" rel="stylesheet">
+  <!--fin tipografía-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/956985894c.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -17,14 +22,14 @@
 </head>
 <body>
 <div id="particles-js" class="animated pulse">  
-<img src="assets/img/slider/logo2.png" alt="Este es el logo" class="img-responsive logo">
+<img src="assets/img/slider/Valu 2.png" alt="Este es el logo" class="img-responsive img-circle logo">
 </div><!--aqui me cierra las particulas-->
 <!--aqui empieza el nav-->
 <nav class="main-nav">
   <a href="#about">ABOUT-ME</a>
   <a href="#portafolio">PORTAFOLIO</a>
   <a href="#contacto">CONTACTO</a>
-  <img src="assets/img/slider/logo2.png" alt="Este es el logo" class="img-responsive logo2">
+  
 </nav>
 
 <!-- begin fullpage -->
@@ -46,9 +51,9 @@
 
   <div class="section" data-anchor="skills">
     <div class="content">
-      <h1 class="wow fadeInDown section_aboutme_title" data-wow-delay="0.2s">ABOUT ME</h1>
-      <img src="assets/img/perfil2.jpg" class="img-circle animated flipInX" alt="Responsive image">
-      <p class="wow fadeInDown section_aboutme_parrafo" data-wow-delay="0.2s">Mi nombre es Valentina Rodríguez, soy desarrolladora web Fron End, vivo en Santiago de Chile. Me apasiona la tecnología, el codigo, la fotografía y edición de vídeo, áreas en las que poseo conocimientos previos y deseo poder seguir aprendiendo, reforzando mi competenecia en estos ámbitos. Me gusta los proyectos que entreguen un mensaje para las personas y mejore su calidad de vida. Me considero una persona con alto sentido de la responsabilidad, adaptable y proactiva. Fanática del cine, los videojuegos y los temas paranormales; la creatividad y la innovación son lo mío.</p>
+      <h1 class="wow fadeInDown section_aboutme_title" data-wow-delay="0.2s">ABOUT</h1>|<h1 class="wow fadeInDown section_aboutme_title2" data-wow-delay="0.2s">ME</h1>
+      <img src="assets/img/perfil2.jpg" class="img-circle animated flipInX " alt="Responsive image" id="imgPerfil">
+      <p class="wow fadeInDown section_aboutme_parrafo" data-wow-delay="0.2s">Mi nombre es Valentina Rodríguez, soy desarrolladora web Front End, vivo en Santiago de Chile. Me apasiona la tecnología, el codigo, la fotografía y edición de vídeo, áreas en las que poseo conocimientos previos y deseo poder seguir aprendiendo, reforzando mi competenecia en estos ámbitos. Me gusta los proyectos que entreguen un mensaje para las personas y mejore su calidad de vida. Me considero una persona con alto sentido de la responsabilidad, adaptable y proactiva. Fanática del cine, los videojuegos y los temas paranormales; la creatividad y la innovación son lo mío.</p>
 
       
   <!-- end section -->
@@ -64,17 +69,17 @@
     <div class="content-slide">
         <div class="slide">
           <h1 class="wow fadeInDown section_proyect_title" data-wow-delay="0.2s"> CONOCIMIENTOS</h1>
-          <div class="conoci_iconos">
+          <div class="wow fadeInDown conoci_iconos">
             <i class="wow fadeInDown devicon-css3-plain-wordmark img-thumbnail"></i>
             <i class="wow fadeInDown devicon-html5-plain-wordmark img-thumbnail"></i>
             <i class="wow fadeInUp devicon-javascript-plain img-thumbnail"></i>
             <i class="wow fadeInUp devicon-jquery-plain-wordmark img-thumbnail"></i>
           </div>
         </div>
-       
-        <div class="slide">
-          <h1 class="wow fadeInDown section_proyect_title" data-wow-delay="0.2s">HERRAMIENTAS</h1>
-          <div class="utilidades_iconos">
+    </div>
+        <div class="slide1">
+          <h1 class="wow fadeInDown " data-wow-delay="0.2s" class="wow fadeInDown section_proyect_title1">HERRAMIENTAS</h1>
+          <div class="wow fadeInDown utilidades_iconos">
               <i class="wow fadeInDown devicon-bootstrap-plain-wordmark img-thumbnail"></i>
               <i class="wow fadeInDown devicon-github-plain-wordmark img-thumbnail"></i>
               <i class="wow fadeInDown devicon-git-plain-wordmark img-thumbnail"></i>
@@ -82,90 +87,118 @@
               <i class="wow fadeInUp devicon-sass-original img-thumbnail"></i>
           </div>
         </div>
-        </div>
-        <br>
-        <br>
-        <br>
-        <div class="slide">
-        <div class="content wow fadeInDown" data-wow-delay="0.2s" data-anchor="portfolio" id="portafolio">
-          <h1 class="slide_title">PORTAFOLIO</h1>
-            <figure class="snip1543 wow fadeInDown">
-              <img src="assets/img/proyectos/translab/home.png" alt="img-responsive" />
-            <figcaption>
-              <h3>Trans-Lab</h3>
-              <p>Aplicación web - proyecto para consultar el saldo Bip! entre otras funcionalidades</p>
-            </figcaption>
-              <a href="https://github.com/ValentinaRod/trans-lab"></a>
-            </figure>
-            
-            <figure class="snip1543 wow fadeInDown">
-              <img src="assets/img/proyectos/pokedex/pokedex.jpg" alt="img-responsive" />
-              <figcaption>
-              <h3>Pokédex</h3>
-              <p>Simulación de un pokédex utilizando consumo de API</p>
-            </figcaption>
-            <a href="https://valentinarod.github.io/Pokedex/"></a>
-            </figure>
-
-        </div>
-        <div class="slide">
-           <figure class="snip1543 wow fadeInDown">
-              <img src="assets/img/proyectos/dobbyspa/dobbyspa.jpg" alt="img-responsive" />
-            <figcaption>
-              <h3>Dobby-Spa</h3>
-              <p>Diseño de pagina web-no es responsive</p>
-            </figcaption>
-              <a href="https://valentinarod.github.io/dobby-spa/"></a>
-          </figure>
-          <figure class="snip1543 wow fadeInDown">
-            <img src="assets/img/proyectos/LYFT colabo/lyft.jpg" />
-          <figcaption>
-            <h3>Lyft App</h3>
-            <p>Demostración de aplicación lyft</p>
-          </figcaption>
-            <a href="https://maitc.github.io/lyft-app/"></a>
-          </figure>
-        </div>
-        <div class="slide">
-          <figure class="snip1543 wow fadeInDown">
-            <img src="assets/img/proyectos/labcar/labcar.jpg" alt="img-responsive" />
-          <figcaption>
-            <h3>LabCar</h3>
-            <p>Diseño Web con Geolocalización</p>
-          </figcaption>
-          <a href="https://valentinarod.github.io/LabCar/"></a>
-          </figure>
-          <figure class="snip1543 wow fadeInDown">
-            <img src="assets/img/proyectos/lab-studio.jpg" alt="img-responsive" />
-          <figcaption>
-            <h3>Lab-Studio</h3>
-            <p>Diseño web - Maquetación</p>
-          </figcaption>
-          <a href="https://valentinarod.github.io/lab-studio/"></a>
-          </figure>
-        </div>
-        <div class="slide">
-          <figure class="snip1543 wow fadeInDown">
-            <img src="assets/img/proyectos/bunnylove/bunnylove.jpg" alt="img-responsive" />
-          <figcaption>
-            <h3>BunnyLove</h3>
-            <p>Diseño web - Maquetación</p>
-          </figcaption>
-            <a href="https://valentinarod.github.io/bunny-love/"></a>
-          </figure>
-          <figure class="snip1543 wow fadeInDown">
-            <img src="assets/img/proyectos/tea-lovers/tea-lovers.jpg" alt="img-responsive" />
-          <figcaption>
-            <h3>Tea-Lovers</h3>
-            <p>Diseño web-Maquetación</p>
-          </figcaption>
-            <a href="https://valentinarod.github.io/tea-lovers/"></a>
-          </figure>
+        <div class="contenedor">
+          <div class="row">
+            <div class="col-lg-12">
+                <div class="slide2">
+                  <div class="content wow fadeInDown" data-wow-delay="0.2s" data-anchor="portfolio" id="portafolio">
+                  <h1 class="slide_title">PORTAFOLIO</h1>
+                  </div>
+                </div>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-lg-4">
+               <figure class="snip1543 wow fadeInDown">
+                  <img src="assets/img/proyectos/translab/home.png" alt="img-responsive" />
+              <figcaption>
+                  <h3>Trans-Lab</h3>
+                  <p>Aplicación web - proyecto para consultar el saldo Bip! entre otras funcionalidades</p>
+              </figcaption>
+                  <a href="https://github.com/ValentinaRod/trans-lab"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="snip1543 wow fadeInDown">
+                  <img src="assets/img/proyectos/pokedex/pokedex.jpg" alt="img-responsive" />
+              <figcaption>
+                  <h3>Pokédex</h3>
+                  <p>Simulación de un pokédex utilizando consumo de API</p>
+              </figcaption>
+                  <a href="https://valentinarod.github.io/Pokedex/"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+               <figure class="snip1543 wow fadeInDown">
+                  <img src="assets/img/proyectos/tea-lovers/tea-lovers.jpg" alt="img-responsive" />
+                <figcaption>
+                  <h3>Tea-Lovers</h3>
+                  <p>Diseño web-Maquetación</p>
+                </figcaption>
+                  <a href="https://valentinarod.github.io/tea-lovers/"></a>
+                </figure>
+            </div>
+          </div><!--AQUI TEMRINA EL 2 ROW-->
+         <div class="row">
+            <div class="col-lg-4">
+              <figure class="snip1543 wow fadeInDown">
+                  <img src="assets/img/proyectos/dobbyspa/dobbyspa.jpg" alt="img-responsive" />
+              <figcaption>
+                  <h3>Dobby-Spa</h3>
+                  <p>Diseño de pagina web-no es responsive</p>
+              </figcaption>
+                  <a href="https://valentinarod.github.io/dobby-spa/"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="snip1543 wow fadeInDown">
+                <img src="assets/img/proyectos/LYFT colabo/lyft.jpg" />
+              <figcaption>
+                <h3>Lyft App</h3>
+                <p>Demostración de aplicación lyft</p>
+              </figcaption>
+                <a href="https://maitc.github.io/lyft-app/"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+              <figure class="snip1543 wow fadeInDown">
+                <img src="assets/img/proyectos/labcar/labcar.jpg" alt="img-responsive" />
+              <figcaption>
+                 <h3>LabCar</h3>
+                  <p>Diseño Web con Geolocalización</p>
+              </figcaption>
+                  <a href="https://valentinarod.github.io/LabCar/"></a>
+            </figure>
+            </div>
+          </div><!--AQUI TERMINA EL 4 ROW-->
+          <div class="row">
+            <div class="col-lg-4">
+              <figure class="snip1543 wow fadeInDown">
+                <img src="assets/img/proyectos/lab-studio.jpg" alt="img-responsive" />
+              <figcaption>
+                <h3>Lab-Studio</h3>
+                <p>Diseño web - Maquetación</p>
+              </figcaption>
+                <a href="https://valentinarod.github.io/lab-studio/"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+                <figure class="snip1543 wow fadeInDown">
+                  <img src="assets/img/proyectos/bunnylove/bunnylove.jpg" alt="img-responsive" />
+                <figcaption>
+                  <h3>BunnyLove</h3>
+                  <p>Diseño web - Maquetación</p>
+              </figcaption>
+                  <a href="https://valentinarod.github.io/bunny-love/"></a>
+              </figure>
+            </div>
+            <div class="col-lg-4">
+        
+            </div>
+          </div><!--AQUI TEMRINA EL 5 ROW-->
+    </div><!--AQUI TEMRINA EL CONTENEDOR-->
 
-    
-  </div>
-</div>
+
+
+            
+        
+          
+        
+        
+         
+         
+        
+       
 <hr>
   <!-- end section -->
 <div class="section" data-anchor="contact">
@@ -213,6 +246,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="assets/js/particles.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/css/media_queries.css"></script>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
