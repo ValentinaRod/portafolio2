@@ -39,7 +39,7 @@ plomo mas claro: #F2F2F2;
  	box-shadow: 5px 5px 5px #4b4b4b;
 }
 
-.section_aboutme_title{
+.section_aboutme_title{  /*titulo de about-me*/
 	font-size: 70px;
   margin:30px;
   box-shadow: 2px 2px 5px #999;
@@ -111,13 +111,11 @@ plomo mas claro: #F2F2F2;
 	color: white;
   padding: 50px;
   padding-top: 50px;
-  }
+}
 
 .section_proyect_title1{
   color: #990000;
   margin-top: 50px;
-
-  
 }
 
 .img-thumbnail{
@@ -449,7 +447,7 @@ plomo mas claro: #F2F2F2;
   margin-left:200px;
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 65px;
-  box-shadow:10px 10px 5px 5px #B40404 inset;
+  
 }
 
 .section_contact_parrafo{

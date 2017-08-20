@@ -1,5 +1,5 @@
 /*	media queries*/
-@media (min-width: 100px) and (max-width: 800px) {
+@media (min-width: 100px) and (max-width: 992px) {
     .nav-brand {
     position: fixed;
     left: 0;
@@ -15,25 +15,29 @@
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
-    padding: 123px 1px 5px 20px;
+    padding: 0px 1px 5px 5px;
     z-index: 10;
   }
 
   .opaque-bg_nombre{
-    font-size: 30px;
-    font-family: 'Damion', cursive;
-  }
-
+    font-size: 70px;
+    font-family: 'Cormorant Unicase', serif;
+    /*font-family: 'Playfair Display', serif;*/ 
+}
   .aboutme{
     position: absolute;
-    top: 300px;
-    left:10px;
+    top: 270px;
+    left:296px;
   }
 
   #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: 211px;
+   position:relative;
+   left:100px;
   }
+  
   .fa-bars {
       display: block !important;
     }
@@ -43,10 +47,48 @@
     }   
   }
 
+   h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    color: #BDBDBD;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+
+  .section {
+    text-align: center;
+
+}
+.section_aboutme_parrafo{
+  font-family: 'Reenie Beanie', cursive;
+  text-align: justify;
+  font-size: 30px;
+  color: #2A0A0A;
+  margin:7px !important;
+}
+
+.section_aboutme_parrafo:hover{
+  color: #990000;
+}
+
+
   /* mobile styles */
 
   @media (min-width: 100px) and (max-width: 400px) {
-   .nav-brand {
+   
+   h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    position: relative;
+    left: -135px;
+  }
+
+.nav-brand {
     position: fixed;
     left: 0;
     z-index: 600;
@@ -56,43 +98,178 @@
   .nav-brand img {
     width: 50px;
   }
-    .opaque-bg
-   {
+   .opaque-bg{
     margin-left: auto;
     margin-right: auto;
     max-width: 380px;
-    padding: 0px 1px 5px 20px;
+    padding: 0px 1px 5px 5px;
     z-index: 10;
   }
 
-  .opaque-bg_nombre{
-    font-size: 20px;
-    font-family: 'Damion', cursive;
-  }
-
-  .aboutme{
+ .opaque-bg_nombre{
+    font-size: 28px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-top: 52px;
+    margin-left:-220px;
+    
+}
+.aboutme{
     position: absolute;
-    top: 300px;
-    left:60px;
+    top: 270px;
+    left:296px;
   }
 
-  #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
+#holder{
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: 211px;
+   position:relative;
+   left:100px;
   }
-  .fa-bars {
-      display: block !important;
-    }
+  
+.fa-bars {
+  display: block !important;
+}
 
-    .header-links {
+.header-links {
       display: none;
-    }
+}
 .section_proyect_title{
   margin-left: -65px;
-  }   
+}   
+  
+.section_aboutme_parrafo{
+  font-family: 'Reenie Beanie', cursive;
+  text-align: justify;
+  font-size: 30px;
+  color: #2A0A0A;
+  margin:7px !important;
+}
+
+.section_aboutme_parrafo:hover{
+  color: #990000;
+}
+
+.section_proyect_title{
+  
+  color: white;
+  padding: 50px;
+  padding-top: 50px;
+  padding-left: 123px !important; 
+  font-family: 'Allerta Stencil', sans-serif !important;
+}
+
+.img-thumbnail{
+  
+  margin:-8px !important;
+  font-size: 67px !important; 
+  background-color: #990000;
+  color:white;
+
+}
+
+.section_proyect_title1{
+  color: #990000;
+  padding-top: 50px !important;
+  padding-left: 97px !important; 
+
+}
+
+.utilidades_iconos{
+  font-size: 100px;
+  font-family: 'Cinzel', serif;
+  padding-top: 50px;
+  margin:42px;
+  padding-top:55px;
+  padding:166px;
+  position: relative;
+  top:-155px;
+  left:-140px;
+
+}
+.slide_title{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 40px !important;
+  margin-left: 128px !important;
+  box-shadow: 2px 2px 5px #999;
+  margin-top: -482px !important;
+}
+.snip1543 {
+  background-color: #fff;
+  color: #ffffff;
+  display: inline-block;
+  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  margin: 20px 5px;
+  max-width: 500px;
+  min-width: 363px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  padding: 10px;
+  position: relative !important;
+  top: -400px !important;
+}
+.section_contact_title{
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 30px !important;
+  
+  margin-left: -145px !important;
+  position: relative !important;
+  top: -400px !important;
+}
+.section_contact_parrafo{
+display: none;
+
+}
+.section_contact_correo{
+  font-family: 'Allerta Stencil', sans-serif;
+  color: #2A0A0A;
+  margin-left: -429px !important;
+  margin-top: -358px !important;
+  font-size: 20px !important;
+}
+.section_footer{
+  width:56% !important;
+  background:url('../img/brad-bg-main.jpg');
+  padding:100px !important;
+  margin-top: -4px !important;
+  font-size:5em !important;
+  text-align:center;
+  font-family: 'Cinzel', serif;
+  
   
 }
-@media (min-width: 768px) and (max-width: 1025px) { 
+.section_conectaconmigo{
+  padding-top: 10px !important;
+  color: #B40404 !important;
+  margin-top: -219px !important;
+  margin-left: -275px !important;
+  font-family: 'Allerta Stencil', sans-serif;
+}
+.slide1{ /*seccion herramientas*/
+  background-color: white;
+  margin-left: 10px;
+  margin-right: -275px;
+  max-width: 1350px;
+  margin-bottom: 99px !important;
+}
+.section_aboutme_title{  /*titulo de about-me*/
+  font-size: 70px;
+  margin:30px;
+  box-shadow: 2px 2px 5px #999;
+  position:relative;
+  left:4px;
+
+}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1200px) { 
  .nav-brand {
     position: fixed;
     left: 0;
@@ -103,30 +280,34 @@
   .nav-brand img {
     width: 50px;
   }
-    .opaque-bg
+   .opaque-bg
    {
-    margin-left: 300px;
+    margin-left: auto;
     margin-right: auto;
     max-width: 380px;
-    padding: 0px 1px 5px 20px;
+    padding: 0px 1px 5px 5px;
     z-index: 10;
   }
 
   .opaque-bg_nombre{
-    font-size: 30px;
-    font-family: 'Damion', cursive;
-  }
-
+    font-size: 70px;
+    font-family: 'Cormorant Unicase', serif;
+    /*font-family: 'Playfair Display', serif;*/ 
+}
   .aboutme{
     position: absolute;
-    top: 300px;
-    left:10px;
+    top: 270px;
+    left:296px;
   }
 
   #holder{
-   font-family: 'Yanone Kaffeesatz', sans-serif;
-   
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: 211px;
+   position:relative;
+   left:100px;
   }
+  
   .fa-bars {
       display: block !important;
     }
@@ -134,7 +315,18 @@
     .header-links {
       display: none;
     }   
-  }
+.section_aboutme_parrafo{
+  font-family: 'Reenie Beanie', cursive;
+  text-align: justify;
+  font-size: 30px;
+  color: #2A0A0A;
+  margin:7px !important;
+}
+
+
+.section_aboutme_parrafo:hover{
+  color: #990000;
+}
     
 
- }
+ 
