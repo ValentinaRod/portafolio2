@@ -21,7 +21,6 @@ plomo mas claro: #F2F2F2;
 	background:#E6E6E6;
   padding-top: 50px;
 
-
 }
 #imgPerfil{
   shape-outside: circle(50%);
@@ -43,6 +42,7 @@ plomo mas claro: #F2F2F2;
 	font-size: 70px;
   margin:30px;
   box-shadow: 2px 2px 5px #999;
+  padding-top: 50px;
 }
 
 .section_aboutme_title:hover{
@@ -51,6 +51,7 @@ plomo mas claro: #F2F2F2;
 
 .section_aboutme_title2{
   font-family: 'Cinzel', serif;
+  padding-bottom: 30px;
 }
 
 .section_aboutme_parrafo{
@@ -59,6 +60,8 @@ plomo mas claro: #F2F2F2;
 	font-size: 30px;
   color: #2A0A0A;
   margin:160px;
+  padding-bottom: 115px;
+  padding-top: 50px;
 }
 
 .section_aboutme_parrafo:hover{
@@ -110,7 +113,7 @@ plomo mas claro: #F2F2F2;
 	
 	color: white;
   padding: 50px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .section_proyect_title1{
@@ -138,7 +141,6 @@ plomo mas claro: #F2F2F2;
   margin-left: -115px;
   margin-right: -275px;
   max-width: 1350px;
-  margin-top: 100px;
   padding-top: 20px;
 }
 
@@ -309,9 +311,9 @@ plomo mas claro: #F2F2F2;
 
 /* redes sociales */
 .section_footer{
-  width:100%;
+  width:99%;
   background:url('../img/brad-bg-main.jpg');
-  padding:50px;
+  padding:60px;
   font-size:2em;
   text-align:center;
   font-family: 'Cinzel', serif;
