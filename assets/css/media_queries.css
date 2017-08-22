@@ -1,5 +1,361 @@
 /*	media queries*/
-@media (min-width: 320px) and (max-width: 640px) {
+@media (min-width: 100px) and (max-width: 768px) { 
+
+.opaque-bg_nombre{
+    font-size: 25px !important;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -146px !important;
+    
+}
+
+.logo{
+  width: 100px;
+  position: relative !important;
+  left: 515px !important;
+
+
+}
+
+#holder{
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: -618px;
+  
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+ .opaque-bg_nombre{
+    font-size: 25px !important;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -146px !important;
+    
+}
+
+.logo{
+  width: 100px;
+  position: relative !important;
+  left: -515px !important;
+
+
+}
+
+#holder{
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: -618px;
+  
+}
+
+
+/*@media (min-width: 640px) and (max-width: 768px) {
+ h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    position: relative;
+    left: -135px;
+  }
+
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 28px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -118px !important;
+
+}
+
+.logo{
+  width: 100px;
+   position: relative !important;
+  left: -482px !important;
+
+ 
+}
+#holder{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  margin-left: -538px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+ h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    color: #BDBDBD;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 50px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -300px !important;
+    
+}
+
+.logo{
+  width: 100px;
+  margin-left: 315px !important;
+  position: relative !important;
+  left: -260px !important;
+
+}
+
+#holder{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  margin-left: -585px;
+
+  }
+}
+
+@media (min-width: 1200px @screen-lg-min) { 
+  h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    position: relative;
+    left: -135px;
+  }
+
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 28px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -146px;
+    
+}
+
+.logo{
+  width: 100px;
+  position: relative !important;
+  left: -515px !important;
+
+
+}
+
+#holder{
+   font-family: 'Reenie Beanie', cursive;
+   font-size: 20px;
+   margin-left: -618px;
+  
+}
+
+@media (min-width: 640px) and (max-width: 768px) {
+ h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+    position: relative;
+    left: -135px;
+  }
+
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 28px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -118px !important;
+
+}
+
+.logo{
+  width: 100px;
+   position: relative !important;
+  left: -482px !important;
+
+ 
+}
+#holder{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  margin-left: -538px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) { 
+
+ h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    color: #BDBDBD;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 50px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -300px !important;
+    
+}
+
+.logo{
+  width: 100px;
+  margin-left: 315px !important;
+  position: relative !important;
+  left: -260px !important;
+
+}
+
+#holder{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  margin-left: -585px;
+
+}
+
+@media (min-width: 1024px) and (max-width: 1366px) { 
+
+ h1 {
+    color: #B40404;
+    font-weight: bold;
+    font-family: 'Allerta Stencil', sans-serif;
+  }
+
+  p {
+    font-size: 20px;
+    color: #BDBDBD;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+.nav-brand {
+    position: fixed;
+    left: 0;
+    z-index: 600;
+    padding: 10px;
+  }
+
+  .nav-brand img {
+    width: 50px;
+  }
+   .opaque-bg{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 380px;
+    padding: 0px 1px 5px 5px;
+    z-index: 10;
+  }
+
+ .opaque-bg_nombre{
+    font-size: 28px;
+    font-family: 'Cormorant Unicase', serif;
+    margin-left: -115px;
+    
+}
+
+.logo{
+  width: 100px;
+  margin-left:100px;
+  position: relative !important;
+  left: -530px !important;
+
+}
+
+#holder{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 20px;
+  margin-left: -585px;
+
+  }
+}
+
+
+
+/*@media (min-width: 320px) and (max-width: 640px) {
    
 h1 {
     color: #B40404;
@@ -204,3 +560,4 @@ h1 {
 }
 
 
+*/
