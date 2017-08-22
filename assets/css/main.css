@@ -29,6 +29,7 @@ plomo mas claro: #F2F2F2;
   float: left;
   border: 5px solid #2A0A0A;
   margin:30px;
+  
 }
 
 #imgPerfil:hover{
@@ -70,18 +71,15 @@ plomo mas claro: #F2F2F2;
 
 
 
-.content-slide{
+.content-slide{ /*seccion conocimientos*/
 	background-color: #990000;
 	color: white;
-  height: 555px;
+  height: 650px;
 
-  }
+}
 
 .slide1{ /*seccion herramientas*/
   background-color: white;
-  margin-left: 10px;
-  margin-right: -275px;
-  max-width: 1350px;
 }
 
 .conoci_iconos{
@@ -89,11 +87,8 @@ plomo mas claro: #F2F2F2;
   font-family: 'Cinzel', serif;
   position: relative;
   top: -100px;
-  padding-top: 50px;
-  
+  padding-top: 100px;
 }
-
-
 
 .utilidades_iconos{
 	font-size: 100px;
@@ -110,39 +105,38 @@ plomo mas claro: #F2F2F2;
 }
 
 .section_proyect_title{
-	
 	color: white;
   padding: 50px;
-  padding-top: 30px;
+  padding-top: 100px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:50px;
+
 }
 
 .section_proyect_title1{
   color: #990000;
-  margin-top: 50px;
+  font-size:50px;
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size:50px;
+  display:flex;
+  justify-content: center;
+  padding-top: 100px; 
 }
 
 .img-thumbnail{
-	
 	margin:19px;
   background-color: #990000;
   color:white;
-
 }
 
 .img-thumbnail:hover{
 	background:white;
-  	color:#ff9292;
+  color:#990000;
 }
 
 
 
 /*seccion portafolio*/
-.slide2{
-  margin-left: -115px;
-  margin-right: -275px;
-  max-width: 1350px;
-  padding-top: 20px;
-}
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(https://fonts.googleapis.com/css?family=Teko:700);
@@ -311,14 +305,14 @@ plomo mas claro: #F2F2F2;
 
 /* redes sociales */
 .section_footer{
-  width:99%;
+  width:100%;
   background:url('../img/brad-bg-main.jpg');
-  padding:60px;
+  height: 160px;
   font-size:2em;
   text-align:center;
   font-family: 'Cinzel', serif;
-  
-  
+  margin-top: 30px;
+  margin-bottom:0px;
 }
 .section_footer_li{
   width:50px;
@@ -335,68 +329,39 @@ plomo mas claro: #F2F2F2;
 .fa{
   vertical-align:middle;
   line-height:inherit;
+  padding-top: 60px;
+  font-size: 50px;
+  letter-spacing: 30px;
 }
-.section_footer_li:before{
-  content:'';
-  width:50px;
-  height:50px;
-  border:2px solid #fff;
-  position:absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  border-radius:50%;
-  opacity:0;
-  transition:all 0.3s;
-}
-.section_footer_li:hover:before{
-  opacity:1;
-  transform:translate(-50%,-50%) scale(1.2,1.2);
-}
-.section_footer_li:after{
-  content:attr(data-name);
-  font-size:13px;
-  background:rgba(0,0,0,0.5);
-  color:#fff;
-  transform:translateX(-50%);
-  position:absolute;
-  left:50%;
-  bottom:-55px;
-  padding:7px;
-  border-radius:6px;
-  opacity:0;
-  transition:all 0.3s;
-}
-.section_footer_li:hover:after{
-  opacity:1;
-  bottom:-48px;
-}
+
 .logo{
-  width: 125px;
+  width: 150px;
+  margin-left:600px;
+  position:relative;
+  top:50px;
   
 }
 
 .logo2{
   width: 30px;
-  
 }
 
 
 /*menu*/
 .main-nav a {
-     font-size: .9em; 
+     font-size: 20px; 
      text-decoration: none;
      font-weight: bold;
      text-transform: uppercase;
      color: #fff;
     display: inline-block;
     margin: 24px 12px;
+    font-family: 'Reenie Beanie', cursive;
     
 }
 .main-nav a:hover {
    border-top: 2px solid #B40404;
-   padding-top: 10px;
-   font-family: 'Cinzel', serif;
+  font-family: 'Reenie Beanie', cursive;
 }
 .main h2 {
    column-span: all;
@@ -427,17 +392,13 @@ plomo mas claro: #F2F2F2;
   column-gap: 40px;
 }
 
-.slideContacto{
-  
-  margin-right: -275px;
-  max-width: 1350px;
-  
-}
+
 
 .section_contact_correo{
   font-family: 'Allerta Stencil', sans-serif;
   color: #2A0A0A;
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
   font-size: 30px;
 }
 
@@ -446,25 +407,31 @@ plomo mas claro: #F2F2F2;
 }
 
 .section_contact_title{
-  margin-left:200px;
+  display:flex;
+  justify-content: center;
   font-family: 'Allerta Stencil', sans-serif;
   font-size: 65px;
-  
+  color: #990000;
 }
 
 .section_contact_parrafo{
-  margin-left: 200px;
+  display: flex;
+  justify-content: center;
   font-family: 'Reenie Beanie', cursive;
   font-size: 40px;
   color: #2A0A0A;
   padding-top: 100px;
+  padding-left: 100px;
 
 }
 
 .slide_title{
   font-family: 'Allerta Stencil', sans-serif;
-  font-size: 65px;
-  margin-left: 500px;
-  box-shadow: 2px 2px 5px #999;
+  font-size: 5rem;
+  color: #990000;
+  display:flex;
+  justify-content: center;
+  padding-top: 200px;
+  
 }
 

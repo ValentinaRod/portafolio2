@@ -323,7 +323,7 @@ plomo mas claro: #F2F2F2;
     }
   }
 
-  .bounce {
+.bounce {
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
   }
@@ -340,7 +340,7 @@ plomo mas claro: #F2F2F2;
     height:auto;
     overflow:none;
   }
-  .skillbar {
+.skillbar {
     position:relative;
     display:block;
     margin-bottom:15px;
@@ -417,23 +417,15 @@ plomo mas claro: #F2F2F2;
   .content {
     margin-left: auto;
     margin-right: auto;
-    max-width: 800px;
-    
-  
-  }
+}
 
   .content-slide {
-    margin-left: 0px;
-    margin-top: -100px;
-    max-width: 1350px;
-    
-  }
+    width: 103%;
+    margin-left: -15px;
+    margin-top: -150px;
+}
 
-  .content-slide img {
-    width: 70%;
-  }
-
-  .fp-controlArrow.fp-next {
+.fp-controlArrow.fp-next {
     border-color: transparent transparent transparent #B40404 !important;
     right: 45px !important;
   }
@@ -705,7 +697,4 @@ plomo mas claro: #F2F2F2;
   -webkit-border-radius: 4px;
      -moz-border-radius: 4px;
           border-radius: 4px;
-}
-.fadeInDown{
-  margin: 100px;
 }
