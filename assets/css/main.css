@@ -306,15 +306,16 @@ plomo mas claro: #F2F2F2;
 
 
 /* redes sociales */
-.section_footer{
-  width:100%;
-  background:url('../img/brad-bg-main.jpg');
-  height: 160px;
-  font-size:2em;
-  text-align:center;
-  font-family: 'Cinzel', serif;
-  margin-top: 30px;
-  margin-bottom:0px;
+.section_footer {
+    width: 135rem;
+    background: url(../img/brad-bg-main.jpg);
+    height: 160px;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-top: 30px;
+    margin-left: -3rem;
+    margin-bottom: 0px;
 }
 .section_footer_li{
   width:50px;
