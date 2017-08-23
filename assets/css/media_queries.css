@@ -1,563 +1,146 @@
 /*	media queries*/
-@media (min-width: 100px) and (max-width: 768px) { 
+@media screen and (max-width:640px) {
+  body{
+    width: 100%;
+  }
 
-.opaque-bg_nombre{
-    font-size: 25px !important;
+  .opaque-bg_nombre {
+    font-size: 25px;
     font-family: 'Cormorant Unicase', serif;
-    margin-left: -146px !important;
-    
-}
-
-.logo{
-  width: 100px;
-  position: relative !important;
-  left: 515px !important;
-
-
-}
-
-#holder{
-   font-family: 'Reenie Beanie', cursive;
-   font-size: 20px;
-   margin-left: -618px;
-  
-}
-
-@media (min-width: 768px) and (max-width: 992px) {
- .opaque-bg_nombre{
-    font-size: 25px !important;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -146px !important;
-    
-}
-
-.logo{
-  width: 100px;
-  position: relative !important;
-  left: -515px !important;
-
-
-}
-
-#holder{
-   font-family: 'Reenie Beanie', cursive;
-   font-size: 20px;
-   margin-left: -618px;
-  
-}
-
-
-/*@media (min-width: 640px) and (max-width: 768px) {
- h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-    position: relative;
-    left: -135px;
+    /* font-family: 'Playfair Display', serif; */
+    position: absolute;
+    left: -25rem;
   }
 
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
+  .logo {
+    width: 150px;
+    position: absolute;
+    left: -50rem;
+
   }
 
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -118px !important;
-
-}
-
-.logo{
-  width: 100px;
-   position: relative !important;
-  left: -482px !important;
-
- 
-}
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -538px;
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) { 
-
- h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-
-  p {
+  #holder {
+    font-family: 'Reenie Beanie', cursive;
     font-size: 20px;
-    color: #BDBDBD;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-  }
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
+    margin-left: 211px;
+    position: absolute;
+    left: -40rem !important;
+    top: 5rem !important;
   }
 
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 50px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -300px !important;
-    
-}
-
-.logo{
-  width: 100px;
-  margin-left: 315px !important;
-  position: relative !important;
-  left: -260px !important;
-
-}
-
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -585px;
-
-  }
-}
-
-@media (min-width: 1200px @screen-lg-min) { 
-  h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-    position: relative;
-    left: -135px;
-  }
-
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -146px;
-    
-}
-
-.logo{
-  width: 100px;
-  position: relative !important;
-  left: -515px !important;
-
-
-}
-
-#holder{
-   font-family: 'Reenie Beanie', cursive;
-   font-size: 20px;
-   margin-left: -618px;
-  
-}
-
-@media (min-width: 640px) and (max-width: 768px) {
- h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-    position: relative;
-    left: -135px;
-  }
-
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -118px !important;
-
-}
-
-.logo{
-  width: 100px;
-   position: relative !important;
-  left: -482px !important;
-
- 
-}
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -538px;
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) { 
-
- h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-
-  p {
+  .blinking-cursor {
+    font-weight: 500;
+    position: absolute;
+    left: -3rem;
+    top: 5rem;
     font-size: 20px;
-    color: #BDBDBD;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-  }
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 50px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -300px !important;
-    
+    color: white !important;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
 }
 
-.logo{
-  width: 100px;
-  margin-left: 315px !important;
-  position: relative !important;
-  left: -260px !important;
+/*Section aboutme*/
 
-}
+#imgPerfil {
+    shape-outside: circle(50%);
+    width: 150px !important;
+    height: 150px !important;
+    float: left;
+    border: 5px solid #2A0A0A;
+    margin: 10px;
+  }
 
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -585px;
+  .section_aboutme_parrafo {
+    font-family: 'Reenie Beanie', cursive;
+    text-align: justify;
+    font-size: 30px;
+    color: #2A0A0A;
+    margin: 10px !important;
+    padding-bottom: 115px;
+    padding-top: 50px;
+  }
 
-}
+/*Section conocimientos*/
+  .content-slide {
+    background-color: #990000;
+    color: white;
+    height: 650px;
+    width: 36rem;
+    margin-top: 10px !important;
+  }
 
-@media (min-width: 1024px) and (max-width: 1366px) { 
-
- h1 {
-    color: #B40404;
-    font-weight: bold;
+  .section_proyect_title {
+    color: white;
+    padding: 50px;
+    padding-top: 100px !important;
     font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px !important;
   }
-
-  p {
-    font-size: 20px;
-    color: #BDBDBD;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-  }
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -115px;
-    
-}
-
-.logo{
-  width: 100px;
-  margin-left:100px;
-  position: relative !important;
-  left: -530px !important;
-
-}
-
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -585px;
-
-  }
-}
-
-
-
-/*@media (min-width: 320px) and (max-width: 640px) {
-   
-h1 {
-    color: #B40404;
-    font-weight: bold;
+  /*Section herramientas*/
+  .section_proyect_title1 {
+    color: #990000;
     font-family: 'Allerta Stencil', sans-serif;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+  }
+  /*seccion portafolio*/
+  .snip1543 {
+    background-color: #fff;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin: 20px 5px;
+    max-width: 300px !important; 
+    min-width: 300px !important; 
+    overflow: hidden;
     position: relative;
-    left: -135px;
-  }
-
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
+    text-align: left;
+    width: 100px !important; 
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     padding: 10px;
   }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -146px;
-    
-}
-
-.logo{
-  width: 100px;
-  position: relative !important;
-  left: -515px !important;
-
-
-}
-
-#holder{
-   font-family: 'Reenie Beanie', cursive;
-   font-size: 20px;
-   margin-left: -618px;
-  
-}
-
-@media (min-width: 640px) and (max-width: 768px) {
- h1 {
-    color: #B40404;
-    font-weight: bold;
+/*seccion contactame*/
+  .section_contact_title {
+    display: flex;
+    justify-content: center;
     font-family: 'Allerta Stencil', sans-serif;
-    position: relative;
-    left: -135px;
+    font-size: 30px !important;
+    color: #990000;
   }
-
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
+  .section_contact_parrafo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 40px;
+    color: #2A0A0A;
+    padding-top: 6px !important;
+    padding-left: 0px !important;
   }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -118px !important;
-
-}
-
-.logo{
-  width: 100px;
-   position: relative !important;
-  left: -482px !important;
-
- 
-}
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -538px;
-}
-
-
-@media (min-width: 768px) and (max-width: 1024px) { 
-
- h1 {
-    color: #B40404;
-    font-weight: bold;
+  .section_contact_correo {
     font-family: 'Allerta Stencil', sans-serif;
+    color: #2A0A0A;
+    display: flex;
+    justify-content: center;
+    font-size: 20px !important;
   }
-
-  p {
-    font-size: 20px;
-    color: #BDBDBD;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
+  /*section footer*/
+  .section_footer {
+    width: 37rem !important;
+    background: url(../img/brad-bg-main.jpg);
+    height: 150px !important;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px !important;
+    margin-left: -40px !important;
+    margin-bottom: 0px;
   }
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
+} /* aqui temrina el media*/
 
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 50px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -300px !important;
-    
-}
-
-.logo{
-  width: 100px;
-  margin-left: 315px !important;
-  position: relative !important;
-  left: -260px !important;
-
-}
-
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -585px;
-
-}
-
-@media (min-width: 1024px) and (max-width: 1366px) { 
-
- h1 {
-    color: #B40404;
-    font-weight: bold;
-    font-family: 'Allerta Stencil', sans-serif;
-  }
-
-  p {
-    font-size: 20px;
-    color: #BDBDBD;
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-  }
-.nav-brand {
-    position: fixed;
-    left: 0;
-    z-index: 600;
-    padding: 10px;
-  }
-
-  .nav-brand img {
-    width: 50px;
-  }
-   .opaque-bg{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 380px;
-    padding: 0px 1px 5px 5px;
-    z-index: 10;
-  }
-
- .opaque-bg_nombre{
-    font-size: 28px;
-    font-family: 'Cormorant Unicase', serif;
-    margin-left: -115px;
-    
-}
-
-.logo{
-  width: 100px;
-  margin-left:100px;
-  position: relative !important;
-  left: -530px !important;
-
-}
-
-#holder{
-  font-family: 'Reenie Beanie', cursive;
-  font-size: 20px;
-  margin-left: -585px;
-
-}
-
-
-*/
