@@ -141,7 +141,7 @@ plomo mas claro: #F2F2F2;
 /*seccion portafolio*/
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(https://fonts.googleapis.com/css?family=Teko:700);
+
 .snip1543 {
   background-color: #fff;
   color: #ffffff;
@@ -242,7 +242,7 @@ plomo mas claro: #F2F2F2;
 }
 
 .snip1543 h3 {
-  font-family: 'Teko', sans-serif;
+  font-family: 'Cinzel', serif; 
   font-size: 36px;
   font-weight: 700;
   line-height: 1em;
@@ -251,6 +251,7 @@ plomo mas claro: #F2F2F2;
 
 .snip1543 p {
   font-size: 0.9em;
+  font-family: 'Reenie Beanie', cursive;  
 }
 
 .snip1543 a {
@@ -260,6 +261,8 @@ plomo mas claro: #F2F2F2;
   left: 0;
   right: 0;
   z-index: 1;
+
+
 }
 
 .snip1543:hover h3,
