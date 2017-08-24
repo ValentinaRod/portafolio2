@@ -314,3 +314,95 @@
   }
 
 }/*Aqui termina el media*/
+
+@media screen and (min-width:568px) and (max-width:730px){
+    .logo {
+    width: 150px;
+    position: absolute;
+    left: -30rem !important;
+  }
+  .opaque-bg_nombre {
+    font-size: 25px;
+    font-family: 'Cormorant Unicase', serif;
+    /* font-family: 'Playfair Display', serif; */
+    position: absolute;
+    left: -6rem !important;
+  }
+  #holder {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+    margin-left: 211px;
+    position: absolute;
+    left: -17rem !important;
+    top: 6rem !important;
+  }
+  .blinking-cursor {
+    font-weight: 500;
+    position: absolute;
+    left: 11rem;
+    top: 12rem;
+    font-size: 13px;
+    color: white !important;
+    -webkit-animation: 1s blink step-end infinite;
+    -moz-animation: 1s blink step-end infinite;
+    -ms-animation: 1s blink step-end infinite;
+    -o-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite;
+  }
+  .section_aboutme_parrafo {
+    font-family: 'Reenie Beanie', cursive;
+    text-align: justify;
+    font-size: 30px;
+    color: #2A0A0A;
+    margin: 25px !important;
+    padding-bottom: 115px;
+    padding-top: 50px;
+}
+/*section conocimiento*/
+  .content-slide {
+    background-color: #990000;
+    color: white;
+    height: 650px;
+    width: 73rem;
+    margin-top: 10px !important;
+  }
+/*portafolio*/
+  .snip1543 {
+    background-color: #fff;
+    color: #ffffff;
+    display: inline-block;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    margin: 20px 150px !important;
+    max-width: 500px !important;
+    min-width: 400px !important;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    width: 100px !important;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    padding: 10px;
+}
+/* section footer*/
+  .section_footer {
+    width: 74rem !important;
+    background: url(../img/brad-bg-main.jpg);
+    height: 150px !important;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    margin-top: 10px !important;
+    margin-left: -40px !important;
+    margin-bottom: 0px;
+  }
+  .section_contact_parrafo {
+    display: flex;
+    justify-content: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 30px;
+    color: #2A0A0A;
+    padding-top: 100px;
+    padding-left: 71px;
+  }
+}
