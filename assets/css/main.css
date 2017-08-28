@@ -1,22 +1,20 @@
- /*font:
+/*font:
 font-family: 'Open Sans Condensed', sans-serif;  (texto)
 font-family: 'Amatic SC', cursive; (titulo)
 font-family: 'Reenie Beanie', cursive; (movido)
-
 colores:
 rojo principal: #B40404;
 rojo oscuro: #2A0A0A;
 rojo fondo: #990000;
 plomo claro: #E6E6E6;
 plomo mas claro: #F2F2F2;
-
 */
 /*SECTION ABOUT ME STYLES*/
 #particles-js{
   border-bottom: 10px solid #990000;
 }
 .seccion_aboutme{
-	background:#E6E6E6;
+  background:#E6E6E6;
   padding-top: 50px;
 
 }
@@ -30,13 +28,13 @@ plomo mas claro: #F2F2F2;
 }
 
 #imgPerfil:hover{
-	transform: scale(1.1);
-	-ms-transform: scale(1.1); 
-	-webkit-transform: scale(1.1);
- 	box-shadow: 5px 5px 5px #990000;
+  transform: scale(1.1);
+  -ms-transform: scale(1.1); 
+  -webkit-transform: scale(1.1);
+  box-shadow: 5px 5px 5px #990000;
 }
 .section_aboutme_title{  /*titulo de about-me*/
-	font-size: 70px;
+  font-size: 70px;
   padding-top: 70px;
   border-bottom: 2px solid #2A0A0A;
   width: 20%;
@@ -52,9 +50,9 @@ plomo mas claro: #F2F2F2;
 }
 
 .section_aboutme_parrafo{
-	font-family: 'Open Sans Condensed', sans-serif;
-	text-align: justify;
-	font-size: 25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: justify;
+  font-size: 25px;
   color: #2A0A0A;
   margin:75px;
   padding-bottom: 115px;
@@ -65,8 +63,8 @@ plomo mas claro: #F2F2F2;
   color: #990000;
 }
 .content-slide{ /*seccion conocimientos*/
-	background-color: #990000;
-	color: white;
+  background-color: #990000;
+  color: white;
   height: 650px;
 
 }
@@ -84,8 +82,8 @@ plomo mas claro: #F2F2F2;
 }
 
 .utilidades_iconos{
-	font-size: 100px;
-	font-family: 'Amatic SC', cursive;
+  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
   padding-top: 50px;
 
 }
@@ -98,7 +96,7 @@ plomo mas claro: #F2F2F2;
 }
 
 .section_proyect_title{
-	color: white;
+  color: white;
   padding: 50px;
   padding-top: 100px;
   font-family: 'Amatic SC', cursive;
@@ -126,14 +124,14 @@ plomo mas claro: #F2F2F2;
 }
 
 .img-thumbnail{
-	margin:19px;
+  margin:19px;
   background-color: #990000;
   color:white;
   font-size: 150px;
 }
 
 .img-thumbnail:hover{
-	background:white;
+  background:white;
   color:#990000;
 }
 
@@ -401,8 +399,7 @@ plomo mas claro: #F2F2F2;
 
 .slideContacto{
   background-color:#990000;
-  width: 135rem;
-  margin-left: -3rem;
+
 }
 
 .section_contact_title{
